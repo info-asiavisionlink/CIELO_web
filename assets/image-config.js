@@ -1,13 +1,14 @@
 // ============================================
 // CIELO Website — Image Configuration
-// 画像構成: 25枚 + Brand Assets
 //
 // 画像URLが準備できたら url: "" に Cloudinary URL を入力してください。
 // URLが空の場合、プレースホルダーが表示されます。
 //
 // 構成:
+//   ART_006         : Art 6枚目（Art専用。IMAGE_006とは別管理）
 //   IMAGE_001〜005  : Art（5カテゴリ）
 //   IMAGE_006〜011  : Apparel（Product × 3 + Wearing × 3）
+//     ※ IMAGE_006 は url / url2 の2バリエーション対応
 //   IMAGE_012〜021  : Jewelry（Product × 5 + Wearing × 5）
 //   IMAGE_022〜024  : Brand Section（Hero / About / Philosophy）
 //   IMAGE_025       : OGP Image
@@ -23,6 +24,12 @@ var CIELO_IMAGES = {
   WORDMARK_CIELO: {
     url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781495769/fzzxktjm2c5feemspvqu.png",
     alt: "CIELO Wordmark"
+  },
+
+  // ── Art（6枚目専用スロット — IMAGE_006とは完全分離） ──
+  ART_006: {
+    url: "",
+    alt: "CIELO Art — Street Luxury Art"
   },
 
   // ── Art ──
@@ -49,7 +56,8 @@ var CIELO_IMAGES = {
 
   // ── Apparel ──
   IMAGE_006: {
-    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589399/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_2_kbpr3b.png",
+    url:  "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589399/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_2_kbpr3b.png",
+    url2: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589397/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_3_ingc8z.png",
     alt: "CIELO T-Shirt — Product"
   },
   IMAGE_007: {
