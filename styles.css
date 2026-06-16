@@ -54,6 +54,20 @@
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 16px; }
+
+/* Film Grain — subtle premium texture at 0.015 opacity */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  opacity: 0.015;
+  pointer-events: none;
+  z-index: 9997;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 300px 300px;
+}
+
 body {
   font-family: var(--font);
   background: var(--black);
@@ -146,20 +160,20 @@ button { font-family: var(--font); }
 ============================================ */
 .cursor-glow {
   position: fixed;
-  width: 480px;
-  height: 480px;
+  width: 520px;
+  height: 520px;
   pointer-events: none;
   z-index: 2;
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(27, 79, 191, 0.10) 0%,
-    rgba(27, 79, 191, 0.04) 40%,
+    rgba(27, 79, 191, 0.055) 0%,
+    rgba(27, 79, 191, 0.018) 45%,
     transparent 70%
   );
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.6s ease;
   will-change: transform;
 }
 
@@ -282,9 +296,7 @@ button { font-family: var(--font); }
 .btn-primary:hover {
   background: var(--sapphire-light);
   transform: translateY(-2px);
-  box-shadow:
-    0 8px 28px rgba(27, 79, 191, 0.45),
-    0 0 20px rgba(27, 79, 191, 0.2);
+  box-shadow: 0 8px 24px rgba(27, 79, 191, 0.24);
 }
 .btn-ghost {
   background: transparent;
@@ -292,9 +304,8 @@ button { font-family: var(--font); }
   border: 1px solid rgba(240, 244, 255, 0.22);
 }
 .btn-ghost:hover {
-  border-color: var(--sapphire-light);
-  color: var(--sapphire-light);
-  box-shadow: inset 0 0 20px rgba(27, 79, 191, 0.06);
+  border-color: rgba(240, 244, 255, 0.5);
+  color: var(--diamond);
 }
 .btn-outline {
   background: transparent;
@@ -304,7 +315,6 @@ button { font-family: var(--font); }
 .btn-outline:hover {
   background: var(--gold);
   color: var(--black);
-  box-shadow: 0 0 24px var(--gold-glow);
 }
 .btn-full { width: 100%; }
 
@@ -526,9 +536,8 @@ button { font-family: var(--font); }
   font-family: var(--font);
 }
 .hero-arrow:hover {
-  background: rgba(27, 79, 191, 0.5);
-  border-color: var(--sapphire-light);
-  box-shadow: 0 0 20px rgba(27, 79, 191, 0.25);
+  background: rgba(27, 79, 191, 0.35);
+  border-color: rgba(240, 244, 255, 0.3);
 }
 .hero-arrow-prev { left: 28px; }
 .hero-arrow-next { right: 28px; }
@@ -694,7 +703,7 @@ button { font-family: var(--font); }
   transition: box-shadow 0.4s ease;
 }
 .art-card:hover {
-  box-shadow: 0 0 40px rgba(27, 79, 191, 0.12);
+  box-shadow: 0 0 0 1px rgba(27, 79, 191, 0.18);
 }
 .art-card-wide { grid-column: span 2; }
 .art-image-wrap {
@@ -795,10 +804,8 @@ button { font-family: var(--font); }
 }
 .product-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(27, 79, 191, 0.4);
-  box-shadow:
-    0 24px 56px rgba(0, 0, 0, 0.45),
-    0 0 40px rgba(27, 79, 191, 0.1);
+  border-color: rgba(240, 244, 255, 0.14);
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.55);
 }
 
 .product-image-wrap {
@@ -916,8 +923,7 @@ button { font-family: var(--font); }
   transition: border-color 0.4s ease, box-shadow 0.4s ease;
 }
 .philosophy-item:hover {
-  border-color: rgba(27, 79, 191, 0.3);
-  box-shadow: 0 0 30px rgba(27, 79, 191, 0.08);
+  border-color: rgba(240, 244, 255, 0.12);
 }
 .philosophy-item h3 {
   font-family: var(--font-display);

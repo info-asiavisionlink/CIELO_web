@@ -9,10 +9,10 @@ var lenis = null;
 function initLenis() {
   if (typeof Lenis === 'undefined') return;
   lenis = new Lenis({
-    duration: 1.2,
+    duration: 0.6,
     easing: function(t) { return Math.min(1, 1.001 - Math.pow(2, -10 * t)); },
     smoothWheel: true,
-    wheelMultiplier: 0.85,
+    wheelMultiplier: 1.0,
   });
   function raf(time) {
     lenis.raf(time);
@@ -404,42 +404,10 @@ function initActiveNav() {
 }
 
 // ── GSAP Scroll Animations ──
+// scrub-based parallax removed for performance (no continuous scroll computation)
 function initGsapAnimations() {
   if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
   gsap.registerPlugin(ScrollTrigger);
-
-  // Philosophy background parallax
-  var philoBg = document.querySelector('.philosophy-bg-img');
-  if (philoBg) {
-    gsap.to(philoBg, {
-      yPercent: -12,
-      ease: 'none',
-      scrollTrigger: {
-        trigger: '#philosophy',
-        start: 'top bottom',
-        end: 'bottom top',
-        scrub: true,
-      }
-    });
-  }
-
-  // About image subtle parallax
-  var aboutImg = document.querySelector('.about-img');
-  if (aboutImg) {
-    gsap.fromTo(aboutImg,
-      { yPercent: 5 },
-      {
-        yPercent: -5,
-        ease: 'none',
-        scrollTrigger: {
-          trigger: '#about',
-          start: 'top bottom',
-          end: 'bottom top',
-          scrub: true,
-        }
-      }
-    );
-  }
 
   // Philosophy quote dramatic entrance
   var quote = document.querySelector('.philosophy-quote');
