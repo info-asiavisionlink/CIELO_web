@@ -53,7 +53,7 @@
 
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; }
+html { font-size: 16px; }
 
 /* Film Grain — subtle premium texture at 0.015 opacity */
 body::after {
@@ -121,6 +121,12 @@ button { font-family: var(--font); }
   text-transform: uppercase;
   color: var(--text-muted);
   opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+.loader-sub.reveal-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 .loader-logo {
   font-family: var(--font-display);
@@ -132,6 +138,10 @@ button { font-family: var(--font); }
   -webkit-text-stroke: 1px rgba(240, 244, 255, 0.55);
   clip-path: inset(0 100% 0 0);
   line-height: 1;
+  transition: clip-path 0.95s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.loader-logo.reveal-in {
+  clip-path: inset(0 0% 0 0);
 }
 .loader-line {
   width: 160px;
@@ -153,6 +163,10 @@ button { font-family: var(--font); }
   color: var(--text-muted);
   opacity: 0;
   font-style: italic;
+  transition: opacity 0.4s ease;
+}
+.loader-tagline.reveal-in {
+  opacity: 1;
 }
 
 /* ============================================
