@@ -293,6 +293,111 @@ button { font-family: var(--font); }
 .section-cta    { text-align: center; margin-top: 60px; }
 
 /* ============================================
+   EDITORIAL TITLE SYSTEM
+   Hero typography extended to all sections
+============================================ */
+.editorial-title {
+  font-family: var(--font-display);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.editorial-outline {
+  font-size: clamp(40px, 8vw, 120px);
+  font-weight: 200;
+  line-height: 0.9;
+  letter-spacing: 0.28em;
+  text-indent: 0.28em;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(200, 212, 230, 0.48);
+  display: block;
+}
+
+.editorial-accent {
+  color: var(--gold);
+  -webkit-text-stroke: 0 transparent;
+  font-size: clamp(15px, 2.4vw, 38px);
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  line-height: 1.25;
+  display: block;
+  text-align: center;
+}
+.editorial-accent::before {
+  content: '';
+  display: block;
+  width: 44px;
+  height: 1px;
+  background: var(--sapphire-light);
+  margin: 24px auto 28px;
+  opacity: 0.45;
+}
+
+/* Left-aligned variant — About section */
+.editorial-title-left { align-items: flex-start; }
+.editorial-title-left .editorial-accent { text-align: left; }
+.editorial-title-left .editorial-accent::before { margin-left: 0; }
+
+/* Editorial header container — more vertical breathing room */
+.editorial-header {
+  text-align: center;
+  margin-bottom: 96px;
+}
+.editorial-header .section-price { margin-top: 40px; }
+
+/* About editorial title spacing */
+.about-content .editorial-title { margin-bottom: 40px; }
+
+/* ============================================
+   PHILOSOPHY MANIFESTO
+============================================ */
+.philosophy-content .editorial-title { margin: 32px auto 0; }
+
+.manifesto-pillars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 80px;
+  margin-bottom: 96px;
+  padding-top: 56px;
+  border-top: 1px solid rgba(240, 244, 255, 0.07);
+}
+.manifesto-pillar {
+  font-family: var(--font-display);
+  font-size: clamp(9px, 1.2vw, 14px);
+  font-weight: 200;
+  letter-spacing: 0.45em;
+  text-indent: 0.45em;
+  color: rgba(240, 244, 255, 0.35);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+
+/* ============================================
+   CONTACT EDITORIAL
+============================================ */
+.contact-editorial-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.contact-editorial-sub {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-indent: 0.25em;
+  color: var(--text-muted);
+  margin-top: 44px;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* ============================================
    BUTTONS
 ============================================ */
 .btn {
