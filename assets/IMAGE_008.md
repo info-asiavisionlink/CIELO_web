@@ -32,8 +32,17 @@ no model, controlled lighting with subtle reflections,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589888/u7696224659_luxury_black_long_sleeve_shirt_sapphire_blue_sign_c86800e5-3397-4f3d-8600-18f4181b2d57_2_s008hk.png
 
 ---
 *`assets/image-config.js` の `IMAGE_008.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589899/u7696224659_luxury_black_long_sleeve_shirt_sapphire_blue_sign_c86800e5-3397-4f3d-8600-18f4181b2d57_1_qkvqxr.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589896/u7696224659_luxury_black_long_sleeve_shirt_sapphire_blue_sign_c86800e5-3397-4f3d-8600-18f4181b2d57_0_b3vnq0.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589891/u7696224659_luxury_black_long_sleeve_shirt_sapphire_blue_sign_c86800e5-3397-4f3d-8600-18f4181b2d57_3_gf28ry.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589888/u7696224659_luxury_black_long_sleeve_shirt_sapphire_blue_sign_c86800e5-3397-4f3d-8600-18f4181b2d57_2_s008hk.png

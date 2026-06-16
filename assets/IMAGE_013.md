@@ -31,8 +31,15 @@ confident posture, street luxury aesthetic,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781591120/u7696224659_single_statement_moissanite_pendant_worn_on_the_n_f1da2b36-daa1-4f1d-a81d-47914b4a3307_3_u6bmtv.png
 
 ---
 *`assets/image-config.js` の `IMAGE_013.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781591112/u7696224659_luxury_jewelry_editorial_photography_close-up_of__6e09cbde-22fd-46f6-b232-91193c966e11_2_km9d7n.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781591124/u7696224659_luxury_jewelry_editorial_photography_close-up_of__6e09cbde-22fd-46f6-b232-91193c966e11_0_dyr0go.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781591120/u7696224659_single_statement_moissanite_pendant_worn_on_the_n_f1da2b36-daa1-4f1d-a81d-47914b4a3307_3_u6bmtv.png

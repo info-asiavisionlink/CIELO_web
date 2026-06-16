@@ -32,8 +32,13 @@ luxury street brand editorial photography,
 4:5 vertical format, --ar 4:5 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599798/u7696224659_CIELO_brand_story_portrait_luxury_entrepreneur_an_d6e68f78-b3a4-4430-a4cf-aeed9111f5d1_0_ntwaji.png
 
 ---
 *`assets/image-config.js` の `IMAGE_023.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599794/u7696224659_CIELO_brand_story_portrait_luxury_entrepreneur_an_d6e68f78-b3a4-4430-a4cf-aeed9111f5d1_1_mlqilg.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599798/u7696224659_CIELO_brand_story_portrait_luxury_entrepreneur_an_d6e68f78-b3a4-4430-a4cf-aeed9111f5d1_0_ntwaji.png

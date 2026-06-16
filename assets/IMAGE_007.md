@@ -32,8 +32,17 @@ entrepreneur creative artist aesthetic,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589694/u7696224659_street_luxury_lifestyle_portrait_artist_wearing_p_156ec8df-546f-4aea-9540-66a11823cf0d_3_bgx80c.png
 
 ---
 *`assets/image-config.js` の `IMAGE_007.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589660/u7696224659_street_luxury_lifestyle_portrait_artist_wearing_p_156ec8df-546f-4aea-9540-66a11823cf0d_2_ixv2xx.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589662/u7696224659_luxury_streetwear_lifestyle_photography_confident_658e8951-5d9d-4549-8384-a0363ac47c13_2_sa48rj.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589697/u7696224659_luxury_streetwear_lifestyle_photography_confident_658e8951-5d9d-4549-8384-a0363ac47c13_3_dxib73.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589694/u7696224659_street_luxury_lifestyle_portrait_artist_wearing_p_156ec8df-546f-4aea-9540-66a11823cf0d_3_bgx80c.png

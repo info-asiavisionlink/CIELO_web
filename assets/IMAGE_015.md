@@ -32,8 +32,17 @@ sapphire blue accent lighting, diamond white sparkle,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598290/u7696224659_luxury_lifestyle_close-up_hand_resting_on_premium_f8eca8b3-69d6-492c-8271-10c65f26e59a_3_pjesld.png
 
 ---
 *`assets/image-config.js` の `IMAGE_015.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598298/u7696224659_powerful_entrepreneur_hand_portrait_single_statem_c9eb88b8-1380-4db8-98d2-d81e30398398_3_iufnea.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598295/u7696224659_luxury_jewelry_lifestyle_photography_close-up_of__6d6ddb31-2f57-441d-b168-dbf886bbeaab_0_dezmro.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598287/u7696224659_executive_hand_close-up_on_dark_conference_table__b2452fc3-f621-4b0a-99af-0789389fb537_0_fm8mkc.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598290/u7696224659_luxury_lifestyle_close-up_hand_resting_on_premium_f8eca8b3-69d6-492c-8271-10c65f26e59a_3_pjesld.png

@@ -32,8 +32,17 @@ no model, studio spotlight lighting for maximum sparkle,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781590407/u7696224659_CIELO_signature_moissanite_apparel_product_luxury_d97995a7-60a4-469e-b552-3668438dc732_3_hjfcww.png
 
 ---
 *`assets/image-config.js` の `IMAGE_010.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781590397/u7696224659_macro_luxury_apparel_photography_moissanite_cryst_58d6f5c6-ab05-4792-874c-bd9de68ba3da_1_ezdbof.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781590400/u7696224659_macro_luxury_apparel_photography_moissanite_cryst_58d6f5c6-ab05-4792-874c-bd9de68ba3da_0_nx2vuw.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781590403/u7696224659_luxury_moissanite_embellished_streetwear_garment__2f7fd4fc-2f4b-42fc-bd03-dc0b8411a94f_0_usjy7o.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781590407/u7696224659_CIELO_signature_moissanite_apparel_product_luxury_d97995a7-60a4-469e-b552-3668438dc732_3_hjfcww.png

@@ -33,8 +33,17 @@ no model, fabric texture visible, controlled studio lighting,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589399/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_2_kbpr3b.png
 
 ---
 *`assets/image-config.js` の `IMAGE_006.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589397/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_3_ingc8z.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589402/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_1_uadusn.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589405/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_0_vfecuh.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589399/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_2_kbpr3b.png

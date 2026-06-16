@@ -32,8 +32,13 @@ cinematic wide shot, dark hero image style,
 16:9 horizontal format, --ar 16:9 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599985/u7696224659_luxury_philosophy_campaign_image_dark_architectur_50d3aaa9-d6b9-4529-899c-2335ff807336_3_ytcj9y.png
 
 ---
 *`assets/image-config.js` の `IMAGE_024.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599981/u7696224659_dark_luxury_cinematic_philosophy_background_solit_f8dafea2-0bc5-46e2-aa97-bb49f9e3f6bd_3_pt9v9b.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599985/u7696224659_luxury_philosophy_campaign_image_dark_architectur_50d3aaa9-d6b9-4529-899c-2335ff807336_3_ytcj9y.png

@@ -31,8 +31,17 @@ editorial art photography, dramatic darkness,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588743/u7696224659_CIELO_luxury_light_art_masterpiece_sapphire_blue__b864f551-26d1-46d0-af25-4e05d4ec802b_0_yviapq.png
 
 ---
 *`assets/image-config.js` の `IMAGE_004.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588736/u7696224659_CIELO_original_neon_inspired_artwork_abstract_lig_b93bd3f3-0c13-468a-af1d-dc4b90d52346_3_dzsybz.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588740/u7696224659_CIELO_futuristic_neon_artwork_glowing_geometric_e_fcf47d01-cc92-4a30-a099-0be9e7ba9a4b_0_dqdf0g.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588746/u7696224659_CIELO_original_neon_inspired_artwork_abstract_lig_b93bd3f3-0c13-468a-af1d-dc4b90d52346_1_iwsqqu.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588743/u7696224659_CIELO_luxury_light_art_masterpiece_sapphire_blue__b864f551-26d1-46d0-af25-4e05d4ec802b_0_yviapq.png

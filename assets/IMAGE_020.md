@@ -33,8 +33,11 @@ gold and diamond white palette, prestigious product shot,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599248/u7696224659_CIELO_signature_moissanite_collection_luxury_jewe_b6225f36-b526-4bde-a451-267720362b44_2_hpcnu4.png
 
 ---
 *`assets/image-config.js` の `IMAGE_020.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599248/u7696224659_CIELO_signature_moissanite_collection_luxury_jewe_b6225f36-b526-4bde-a451-267720362b44_2_hpcnu4.png

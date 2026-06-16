@@ -32,8 +32,17 @@ sapphire blue accent light, diamond white sparkle,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598689/u7696224659_premium_wrist_styling_luxury_moissanite_bracelet__665ccd36-994f-4eff-8b29-608fa4d56d62_2_uryr7e.png
 
 ---
 *`assets/image-config.js` の `IMAGE_017.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598689/u7696224659_premium_wrist_styling_luxury_moissanite_bracelet__665ccd36-994f-4eff-8b29-608fa4d56d62_2_uryr7e.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598693/u7696224659_luxury_lifestyle_close-up_wrist_resting_on_a_prem_fb53a96c-eb81-46cf-89b3-209799b5e8ec_2_inc3rp.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598697/u7696224659_luxury_jewelry_lifestyle_photography_close-up_of__7cefee9d-1711-4508-b4ba-a2f2519ebcbd_2_s0bobn.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598701/u7696224659_powerful_entrepreneur_lifestyle_wrist_wearing_a_l_95ab1373-1400-49a0-8a9e-e5f3c9ef3f9e_0_q4k8fk.png

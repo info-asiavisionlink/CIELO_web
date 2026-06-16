@@ -33,8 +33,17 @@ diamond white sparkle, sapphire blue accent,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598507/u7696224659_CIELO_signature_moissanite_bracelet_product_photo_bd30e581-528c-4427-aca8-7f147bdfa80c_2_tx3kcd.png
 
 ---
 *`assets/image-config.js` の `IMAGE_016.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598499/u7696224659_premium_moissanite_tennis_bracelet_intense_rainbo_d405719d-dc0d-43e6-ab3b-015911240e51_1_xfupa6.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598503/u7696224659_premium_moissanite_tennis_bracelet_intense_rainbo_d405719d-dc0d-43e6-ab3b-015911240e51_2_exw3bc.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598511/u7696224659_CIELO_signature_moissanite_bracelet_product_photo_bd30e581-528c-4427-aca8-7f147bdfa80c_1_wtoalo.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781598507/u7696224659_CIELO_signature_moissanite_bracelet_product_photo_bd30e581-528c-4427-aca8-7f147bdfa80c_2_tx3kcd.png

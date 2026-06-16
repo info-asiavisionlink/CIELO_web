@@ -31,8 +31,17 @@ luxury jewelry editorial photography, confident presence,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599048/u7696224659_luxury_street_elegance_portrait_moissanite_earrin_b8e8a24b-8cc2-4d6a-88bf-eae348ea5151_3_p5fcpf.png
 
 ---
 *`assets/image-config.js` の `IMAGE_019.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599060/u7696224659_luxury_jewelry_editorial_photography_close-up_sid_cfad90dc-93cb-4b4c-ae9c-8e66db22a7c1_3_pjownl.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599057/u7696224659_premium_moissanite_earrings_worn_on_the_ear_gemst_421dfe79-208e-48f9-8f86-4bf7df3b61eb_3_olp2oc.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599053/u7696224659_ear_and_jawline_close-up_luxury_moissanite_earrin_2fc38514-a974-454c-92f0-6d139163a8f3_1_o39n15.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599048/u7696224659_luxury_street_elegance_portrait_moissanite_earrin_b8e8a24b-8cc2-4d6a-88bf-eae348ea5151_3_p5fcpf.png

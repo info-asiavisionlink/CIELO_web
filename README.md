@@ -238,6 +238,32 @@ fetch('https://formspree.io/f/YOUR_FORM_ID', {
 
 ---
 
+## 公開準備完了率（2026-06-16 更新）
+
+| 領域 | 完了度 | 状況 |
+|------|--------|------|
+| HTML構造 | 100% | 7セクション完成 |
+| CSS | 100% | ブランドカラー・レスポンシブ完成 |
+| JavaScript | 90% | フォームエンドポイント未接続 |
+| SEO | 85% | OG画像・faviconの実ファイル未配置 |
+| 画像（IMAGE_001〜024） | 100% | Cloudinary URL 設定済み・HTTP 200確認済み |
+| 画像（IMAGE_025 / OGP） | 0% | Figma等で別途作成・配置が必要 |
+| favicon一式 | 0% | 未作成 |
+| フォームエンドポイント | 0% | Formspree等への接続が必要 |
+| GitHub | 100% | main ブランチ Push 済み |
+
+**総合公開準備完了率: 約 88%**
+
+### 残課題（公開前に必要）
+
+1. **OGP画像** — `/ogp.jpg`（1200×630px）を作成してルートに配置
+2. **favicon** — `/favicon.ico` / `/favicon-32x32.png` / `/apple-touch-icon.png` を作成・配置
+3. **フォーム** — `script.js` の `initContactForm()` を Formspree 等に接続
+4. **og:image URL** — `index.html` の `https://asiavision.link/ogp.jpg` を実際のCDN URLに更新
+5. **Vercel デプロイ** — GitHub連携またはCLI経由でデプロイ
+
+---
+
 **CIELO — by ASIA VISION LINK**  
 info@asiavision.link · asiavision.link  
 Tokyo · Ginza 1-12-4

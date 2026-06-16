@@ -31,8 +31,18 @@ premium framed art panel, luxury brand identity,
 3:4 vertical format, --ar 3:4 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588496/u7696224659_CIELO_original_hip_hop_culture_artwork_inspired_b_a73d4587-55bf-4e6a-8175-179d7a6e0e62_3_lnlh5q.png
 
 ---
 *`assets/image-config.js` の `IMAGE_003.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588493/u7696224659_CIELO_original_luxury_street_culture_artwork_hip__13c7b25c-e4ea-4378-bd8f-e4f5b8245ea6_1_dmkdle.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588500/u7696224659_CIELO_original_hip_hop_culture_inspired_artwork_l_f0e76d56-8346-4ff4-8862-efb55bb1cad7_1_dhyazo.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588503/u7696224659_CIELO_original_hip_hop_culture_inspired_artwork_l_f0e76d56-8346-4ff4-8862-efb55bb1cad7_0_dangjy.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781588496/u7696224659_CIELO_original_hip_hop_culture_artwork_inspired_b_a73d4587-55bf-4e6a-8175-179d7a6e0e62_3_lnlh5q.png
+

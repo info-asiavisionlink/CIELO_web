@@ -32,8 +32,15 @@ dark moody tones with electric blue accents,
 photorealistic, 16:9 horizontal format, --ar 16:9 --style raw
 ```
 
-## URL
-URL: 
+## URL（公開）
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599586/u7696224659_luxury_penthouse_view_overlooking_Tokyo_at_night__21c6c3b3-57f3-4b4e-bc2d-b2689a52f691_2_h3grsw.png
 
 ---
 *`assets/image-config.js` の `IMAGE_022.url` に Cloudinary URL を貼り付けてください。*
+
+## URL（予備）
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599586/u7696224659_luxury_penthouse_view_overlooking_Tokyo_at_night__21c6c3b3-57f3-4b4e-bc2d-b2689a52f691_2_h3grsw.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599592/u7696224659_luxury_penthouse_view_overlooking_Tokyo_at_night__21c6c3b3-57f3-4b4e-bc2d-b2689a52f691_1_bavskk.png
+
+https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599596/u7696224659_luxury_penthouse_view_overlooking_Tokyo_at_night__21c6c3b3-57f3-4b4e-bc2d-b2689a52f691_0_shqgbt.png
