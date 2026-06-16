@@ -218,14 +218,10 @@ function initHeroSlider() {
     }, { passive: true });
   }
 
-  // Pause on hover, resume on leave (no scroll interaction)
-  var heroEl = document.getElementById('hero');
-  if (heroEl) {
-    heroEl.addEventListener('mouseenter', stopAuto);
-    heroEl.addEventListener('mouseleave', startAuto);
-    heroEl.addEventListener('focusin',    stopAuto);
-    heroEl.addEventListener('focusout',   startAuto);
-  }
+  // Pause when browser tab is hidden, resume when visible
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) { stopAuto(); } else { startAuto(); }
+  });
 
   updateCounter(0);
   startAuto();
