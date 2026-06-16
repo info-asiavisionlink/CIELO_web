@@ -60,12 +60,36 @@
 
   <!-- ── 01 Hero ── -->
   <section id="hero" class="section-hero">
-    <div class="hero-bg">
-      <div class="hero-image-wrap" data-placeholder-label="IMAGE_022 — Hero Background">
-        <img data-image-id="IMAGE_022" class="dynamic-image hero-bg-img" alt="CIELO Hero">
-        <div class="hero-overlay"></div>
+
+    <!-- Slider Background -->
+    <div class="hero-slider" id="heroSlider">
+      <div class="hero-slide active">
+        <div class="hero-image-wrap" data-placeholder-label="HERO_001 — 人物 × T-Shirt × Necklace × Original Character Art">
+          <img data-image-id="HERO_001" class="dynamic-image hero-bg-img" alt="CIELO — Street Luxury Editorial 01">
+          <div class="hero-overlay"></div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-image-wrap" data-placeholder-label="HERO_002 — 人物 × Black Apparel × Jewelry × Neon Art">
+          <img data-image-id="HERO_002" class="dynamic-image hero-bg-img" alt="CIELO — Street Luxury Editorial 02">
+          <div class="hero-overlay"></div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-image-wrap" data-placeholder-label="HERO_003 — 人物 × White Apparel × Jewelry × Pop Culture Art">
+          <img data-image-id="HERO_003" class="dynamic-image hero-bg-img" alt="CIELO — Street Luxury Editorial 03">
+          <div class="hero-overlay"></div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-image-wrap" data-placeholder-label="HERO_004 — 人物 × Street Luxury × Jewelry × Street Culture Art">
+          <img data-image-id="HERO_004" class="dynamic-image hero-bg-img" alt="CIELO — Street Luxury Editorial 04">
+          <div class="hero-overlay"></div>
+        </div>
       </div>
     </div>
+
+    <!-- Content -->
     <div class="hero-content">
       <p class="hero-eyebrow">Street Luxury — Tokyo · Ginza</p>
       <h1 class="hero-title">
@@ -78,10 +102,27 @@
         <a href="#about" class="btn btn-ghost">Discover CIELO</a>
       </div>
     </div>
-    <div class="hero-scroll">
-      <span>Scroll</span>
-      <div class="scroll-line"></div>
+
+    <!-- Arrow Controls -->
+    <button class="hero-arrow hero-arrow-prev" id="heroPrev" aria-label="前のスライド">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="12.5 4 6.5 10 12.5 16"/>
+      </svg>
+    </button>
+    <button class="hero-arrow hero-arrow-next" id="heroNext" aria-label="次のスライド">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="7.5 4 13.5 10 7.5 16"/>
+      </svg>
+    </button>
+
+    <!-- Dot Navigation -->
+    <div class="hero-dots" id="heroDots" role="tablist" aria-label="スライドナビゲーション">
+      <button class="hero-dot active" role="tab" aria-selected="true"  aria-label="スライド 1"></button>
+      <button class="hero-dot"        role="tab" aria-selected="false" aria-label="スライド 2"></button>
+      <button class="hero-dot"        role="tab" aria-selected="false" aria-label="スライド 3"></button>
+      <button class="hero-dot"        role="tab" aria-selected="false" aria-label="スライド 4"></button>
     </div>
+
   </section>
 
   <!-- ── 02 About CIELO ── -->

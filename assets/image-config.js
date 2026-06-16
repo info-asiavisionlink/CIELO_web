@@ -115,11 +115,25 @@ var CIELO_IMAGES = {
     alt: "CIELO Moissanite Jewelry — Wearing"
   },
 
-  // ── Brand Sections ──
-  IMAGE_022: {
-    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599586/u7696224659_luxury_penthouse_view_overlooking_Tokyo_at_night__21c6c3b3-57f3-4b4e-bc2d-b2689a52f691_2_h3grsw.png",
-    alt: "CIELO Hero — 都市夜景 × Sapphire Blue"
+  // ── Hero Slider ──
+  HERO_001: {
+    url: "",
+    alt: "CIELO — 人物 × T-Shirt × Necklace × Original Character Art"
   },
+  HERO_002: {
+    url: "",
+    alt: "CIELO — 人物 × Black Apparel × Jewelry × Neon Art"
+  },
+  HERO_003: {
+    url: "",
+    alt: "CIELO — 人物 × White Apparel × Jewelry × Pop Culture Art"
+  },
+  HERO_004: {
+    url: "",
+    alt: "CIELO — 人物 × Street Luxury × Jewelry × Street Culture Art"
+  },
+
+  // ── Brand Sections ──
   IMAGE_023: {
     url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781599798/u7696224659_CIELO_brand_story_portrait_luxury_entrepreneur_an_d6e68f78-b3a4-4430-a4cf-aeed9111f5d1_0_ntwaji.png",
     alt: "CIELO About — Brand Story"

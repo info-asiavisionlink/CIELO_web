@@ -178,9 +178,73 @@ function initActiveNav() {
   sections.forEach(function (s) { observer.observe(s); });
 }
 
+// ── Hero Slider ──
+function initHeroSlider() {
+  var slides  = document.querySelectorAll('.hero-slide');
+  var dots    = document.querySelectorAll('.hero-dot');
+  var btnPrev = document.getElementById('heroPrev');
+  var btnNext = document.getElementById('heroNext');
+  if (!slides.length) return;
+
+  var current  = 0;
+  var total    = slides.length;
+  var interval = 3000;
+  var timer    = null;
+
+  function goTo(index) {
+    slides[current].classList.remove('active');
+    if (dots[current]) {
+      dots[current].classList.remove('active');
+      dots[current].setAttribute('aria-selected', 'false');
+    }
+    current = (index + total) % total;
+    slides[current].classList.add('active');
+    if (dots[current]) {
+      dots[current].classList.add('active');
+      dots[current].setAttribute('aria-selected', 'true');
+    }
+  }
+
+  function startAuto() {
+    clearInterval(timer);
+    timer = setInterval(function () { goTo(current + 1); }, interval);
+  }
+
+  function stopAuto() { clearInterval(timer); }
+
+  if (btnPrev) {
+    btnPrev.addEventListener('click', function () {
+      stopAuto(); goTo(current - 1); startAuto();
+    });
+  }
+  if (btnNext) {
+    btnNext.addEventListener('click', function () {
+      stopAuto(); goTo(current + 1); startAuto();
+    });
+  }
+
+  dots.forEach(function (dot, i) {
+    dot.addEventListener('click', function () {
+      stopAuto(); goTo(i); startAuto();
+    });
+  });
+
+  // Pause on hover / focus inside hero
+  var heroEl = document.getElementById('hero');
+  if (heroEl) {
+    heroEl.addEventListener('mouseenter', stopAuto);
+    heroEl.addEventListener('mouseleave', startAuto);
+    heroEl.addEventListener('focusin',   stopAuto);
+    heroEl.addEventListener('focusout',  startAuto);
+  }
+
+  startAuto();
+}
+
 // ── Init ──
 document.addEventListener('DOMContentLoaded', function () {
   initImages();
+  initHeroSlider();
   initNav();
   initReveal();
   initSmoothScroll();
