@@ -1,0 +1,27 @@
+{
+  "name": "CIELO — Street Luxury Brand",
+  "short_name": "CIELO",
+  "description": "Born from the street. Built for the top. Moissanite Jewelry · Apparel · Art. Tokyo · Ginza.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
