@@ -47,7 +47,7 @@ gold and silver jewelry details visible,
 ```
 
 ## URL
-URL: 
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601612/u7696224659_luxury_street_culture_campaign_finale_two_or_thre_a03f5736-c745-4865-b60a-78a80b85f5e0_0_a9jzrn.png
 
 ---
 *`assets/image-config.js` の `HERO_004.url` に Cloudinary URL を貼り付けてください。*

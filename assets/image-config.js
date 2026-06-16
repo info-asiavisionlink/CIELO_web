@@ -117,19 +117,19 @@ var CIELO_IMAGES = {
 
   // ── Hero Slider ──
   HERO_001: {
-    url: "",
+    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601145/u7696224659_luxury_street_culture_campaign_image_confident_fi_dcc726dd-2037-4618-a928-19668510b940_1_loinoe.png",
     alt: "CIELO — 人物 × T-Shirt × Necklace × Original Character Art"
   },
   HERO_002: {
-    url: "",
+    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601291/u7696224659_luxury_street_culture_campaign_image_person_weari_d25b4b11-329c-4e6c-9e42-fecf7bc7efc1_2_dwhuor.png",
     alt: "CIELO — 人物 × Black Apparel × Jewelry × Neon Art"
   },
   HERO_003: {
-    url: "",
+    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601495/u7696224659_luxury_street_culture_campaign_image_person_weari_01b29187-2494-4549-9b9c-8084daf4eb95_2_tkdltf.png",
     alt: "CIELO — 人物 × White Apparel × Jewelry × Pop Culture Art"
   },
   HERO_004: {
-    url: "",
+    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601612/u7696224659_luxury_street_culture_campaign_finale_two_or_thre_a03f5736-c745-4865-b60a-78a80b85f5e0_0_a9jzrn.png",
     alt: "CIELO — 人物 × Street Luxury × Jewelry × Street Culture Art"
   },
 

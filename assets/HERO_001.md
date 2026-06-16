@@ -47,7 +47,7 @@ no face required, 16:9 horizontal cinematic format,
 ```
 
 ## URL
-URL: 
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601145/u7696224659_luxury_street_culture_campaign_image_confident_fi_dcc726dd-2037-4618-a928-19668510b940_1_loinoe.png
 
 ---
 *`assets/image-config.js` の `HERO_001.url` に Cloudinary URL を貼り付けてください。*

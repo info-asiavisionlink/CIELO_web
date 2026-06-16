@@ -45,7 +45,7 @@ diamond white and sapphire blue color palette,
 ```
 
 ## URL
-URL: 
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601495/u7696224659_luxury_street_culture_campaign_image_person_weari_01b29187-2494-4549-9b9c-8084daf4eb95_2_tkdltf.png
 
 ---
 *`assets/image-config.js` の `HERO_003.url` に Cloudinary URL を貼り付けてください。*

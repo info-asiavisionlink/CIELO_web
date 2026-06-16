@@ -47,7 +47,7 @@ luxury brand hero image, 16:9 cinematic format,
 ```
 
 ## URL
-URL: 
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781601291/u7696224659_luxury_street_culture_campaign_image_person_weari_d25b4b11-329c-4e6c-9e42-fecf7bc7efc1_2_dwhuor.png
 
 ---
 *`assets/image-config.js` の `HERO_002.url` に Cloudinary URL を貼り付けてください。*
