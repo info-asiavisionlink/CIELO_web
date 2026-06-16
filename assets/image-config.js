@@ -27,8 +27,8 @@ var CIELO_IMAGES = {
   },
 
   // ── Art（6枚目専用スロット — IMAGE_006とは完全分離） ──
-  ART_006: {
-    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589397/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_3_ingc8z.png",
+  ART_005: {
+    url: "https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589037/u7696224659_CIELO_signature_character_artwork_mysterious_luxu_3424a0ae-6b1c-4635-a0b3-dbef1a14a4bf_1_w9tlsq.png",
     alt: "CIELO Art — Street Luxury Art"
   },
 
