@@ -540,22 +540,12 @@ button { font-family: var(--font); }
   align-items: center;
   gap: 10px;
 }
-.logo-img {
-  height: 32px;
+.nav-wordmark {
+  height: 30px;
   width: auto;
-  display: none;
+  object-fit: contain;
+  display: block;
 }
-.logo-img.loaded { display: block; }
-.nav-logo-text {
-  font-family: var(--font-display);
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 0.45em;
-  color: var(--diamond);
-  transition: color var(--trans);
-  text-transform: uppercase;
-}
-.nav-logo:hover .nav-logo-text { color: var(--sapphire-light); }
 .nav-links {
   display: flex;
   gap: 36px;
