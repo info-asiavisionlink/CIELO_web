@@ -34,9 +34,30 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
 </head>
 <body>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-inner">
+      <p class="loader-sub">ASIA VISION LINK</p>
+      <div class="loader-logo">CIELO</div>
+      <div class="loader-line">
+        <div class="loader-progress" id="loaderProgress"></div>
+      </div>
+      <p class="loader-tagline">The light you deserve.</p>
+    </div>
+  </div>
+
+  <!-- Cursor Glow (Hero only) -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
 
   <!-- ── Navigation ── -->
   <nav class="nav" id="nav">
@@ -121,6 +142,18 @@
       <button class="hero-dot"        role="tab" aria-selected="false" aria-label="スライド 2"></button>
       <button class="hero-dot"        role="tab" aria-selected="false" aria-label="スライド 3"></button>
       <button class="hero-dot"        role="tab" aria-selected="false" aria-label="スライド 4"></button>
+    </div>
+
+    <!-- Slide Counter -->
+    <div class="hero-counter" aria-hidden="true">
+      <span class="hero-counter-current" id="heroCounterCurrent">01</span>
+      <span class="hero-counter-sep"> / </span>
+      <span class="hero-counter-total">04</span>
+    </div>
+
+    <!-- Slide Progress Track -->
+    <div class="hero-progress-track" aria-hidden="true">
+      <div class="hero-progress-fill" id="heroProgressFill"></div>
     </div>
 
   </section>
