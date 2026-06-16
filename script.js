@@ -12,7 +12,11 @@ function initImages() {
     if (config && config.url && config.url.trim() !== '') {
       el.src = config.url;
       if (config.alt) el.alt = config.alt;
-      el.addEventListener('load', function() { el.classList.add('loaded'); });
+      el.addEventListener('load', function() {
+        el.classList.add('loaded');
+        var wrap = el.closest('[data-placeholder-label]');
+        if (wrap) wrap.classList.add('image-loaded');
+      });
       el.addEventListener('error', function() { el.style.display = 'none'; });
     }
   });
