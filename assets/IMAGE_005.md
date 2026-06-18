@@ -34,6 +34,8 @@ premium brand art installation, cinematic atmosphere,
 ## URL（公開）
 URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589043/u7696224659_CIELO_signature_character_artwork_mysterious_luxu_3424a0ae-6b1c-4635-a0b3-dbef1a14a4bf_2_iwkp73.png
 
+URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589037/u7696224659_CIELO_signature_character_artwork_mysterious_luxu_3424a0ae-6b1c-4635-a0b3-dbef1a14a4bf_1_w9tlsq.png
+
 ---
 *`assets/image-config.js` の `IMAGE_005.url` に Cloudinary URL を貼り付けてください。*
 

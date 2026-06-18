@@ -35,6 +35,8 @@ no model, fabric texture visible, controlled studio lighting,
 
 ## URL（公開）
 URL: https://res.cloudinary.com/deyc8gz2k/image/upload/v1781589399/u7696224659_CIELO_luxury_streetwear_t-shirt_premium_heavyweig_b3f91faf-514a-4181-bd83-5c835c8de876_2_kbpr3b.png
+## URL（公開）
+
 
 ---
 *`assets/image-config.js` の `IMAGE_006.url` に Cloudinary URL を貼り付けてください。*
